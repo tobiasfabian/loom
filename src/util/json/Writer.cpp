@@ -110,9 +110,9 @@ void Writer::val(const Val& v) {
     case Val::JSNULL:
       val(Null());
       return;
-    case Val::UINT:
-      val(v.ui);
-      return;
+//  case Val::UINT:
+//    val(v.ui);
+//    return;
     case Val::INT:
       val(v.i);
       return;
